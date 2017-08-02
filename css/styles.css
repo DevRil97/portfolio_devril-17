@@ -6,3 +6,87 @@
 /*HEADER STYLES*/
 
 /*NAVBAR STYLES*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgba(51, 51, 51, .5);
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(51 51 51 .25);
+  color: #F8512F
+}
+
+.navbar-header h1 {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  width: 200px;
+}
+
+.navbar-header h3 {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 2px;
+  width: 225px;
+}
+
+.nav-web_margin {
+  margin-top: 23px;
+}
+/*HERO SECTION BEGINS*/
+.hero {
+  background-image: url(../img/hero-background1.jpg);
+  height: 525px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.hero-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 525px;
+  overflow: hidden;
+}
+
+.hero-content {
+  height: 375px;
+  width: 375px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: relative;
+  top: 125px;
+}
+
+.hero-content h1 {
+  font-size: 35;
+  order: 1;
+  margin-top: 38%;
+  margin-bottom: 2px;
+}
+
+.hero-content a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  order: 2;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #fff;
+  }
