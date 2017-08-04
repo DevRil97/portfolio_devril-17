@@ -9,32 +9,31 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<!-- header styles ends -->
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="img/portfolio-logo.png" alt="logo" class="logo"></a>
-      <h1>Devin Riley</h1>
-      <h3>Front-end Developer</h3>
-    </div>
+<!-- header styles begins -->
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img src="img/portfolio-logo.png" alt="logo" class="logo"></a>
+	      <h1>Devin Riley</h1>
+	      <h3>Front-end Developer</h3>
+	    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right nav-web_margin">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right nav-web_margin">
+	        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Skills</a></li>
+					<li><a href="#">Projects</a></li>
+	        <li><a href="#">Contact</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
 <!-- header section ends -->
 <!-- hero section begins -->
 <div class=" container-fluid hero">
@@ -51,11 +50,53 @@
   </div>
 </div>
 <!-- hero section ends -->
+<!-- my skills section -->
+<div class="container my-skills-section text-center">
+	<div class="row section-header-text">
+		<div class="col-sm-12">
+			<h1 class="my-skills">My Skills</h1>
+		</div>
+	</div>
+	<div class="row section-header-text">
+		<div class="col-sm-12">
+			<h2>Iv'e got a expertise in all phases of the design process</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<i class="fa fa-diamond skills-icon" aria-hidden="true"></i>
+			<br>
+			<h1>Ideas</h1>
+			<br>
+			<p>I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, that's where the majority of amazing user experiences start.</p>
+		</div>
+		<div class="col-sm-4">
+			<i class="fa fa-magic skills-icon" aria-hidden="true"></i>
+			<br>
+			<h1>UX/UI</h1>
+			<br>
+			<p>I sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm a minimalist who truly believes that less is more.</p>
+		</div>
+		<div class="col-sm-4">
+			<i class="fa fa-code skills-icon" aria-hidden="true"></i>
+			<br>
+			<h1>Code</h1>
+			<br>
+			<p> design in the browser with HTML(5), CSS(3) and a touch of JavaScript. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.</p>
+		</div>
+	</div>
+</div>
+
 
 <!-- portfolio section begins -->
 <!-- parallax flipping cards section begins -->
-<div class="wrapper">
-  <div class="cols">
+<div class="container-fluid portfolio-section">
+	<div class="row section-header-text">
+		<div class="col-sm-12 text-center">
+			<h1>My Work</h1>
+		</div>
+	</div>
+  <div class="cols wrapper">
 			<div class="col" ontouchstart="this.classList.toggle('hover');">
 				<div class="container flip-card">
 					<div class="front petstore-card">
@@ -107,8 +148,70 @@
  </div>
 <!-- parallax flipping cards section ends -->
 <!-- portfolio section ends -->
+<!-- Contact section Begins -->
+<div class="contact-section-back">
+	<div class="container-fluid contact-section text-center">
+		<div class="row">
+			<div class="contact-wrapper">
+				<div class="col-sm-12">
+					<h1>Want to work together?</h1>
+					<br>
+					<h2>I'm currently accepting new projects or work and would love to hear about yours. Please take a few minutes to tell me about it.</h2>
+				</div>
+				<div class="col-sm-12">
+					<div class="contact-button">
+						<h1 class="text-uppercase">Contact Me</h1>
+						<div class="contact-form">
+						<form>
+						  <div class="form-group">
+						    <label for="InputName">Name:</label>
+						    <input type="text" class="form-control" id="InputName" placeholder="Name">
+						  </div>
+						  <div class="form-group">
+						    <label for="InputEmail">E-mail:</label>
+						    <input type="email" class="form-control" id="InputEmail" placeholder="E-mail">
+						  </div>
+							<div class="form-group">
+						    <label for="InputSubject">Subject:</label>
+						    <input type="text" class="form-control" id="InputSubject" placeholder="Subject">
+						  </div>
+							<div class="form-group">
+						    <label for="InputTextArea">Message:</label>
+						    <textarea class="form-control" rows="3"></textarea>
+							</div>
+						  <div class="checkbox">
+						    <label>
+						      <input type="checkbox">I'm not a robot
+						   </label>
+						  </div>
+						  <button type="submit" class="btn btn-default center-block message-button">Send Message!</button>
+						</form>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid footer-spacer-section">
+</div>
+<!-- Contact section Ends -->
   <!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
+<footer>
+	<div class="footer">
+	  <div id="button"></div>
+			<div id="container">
+				<div id="cont">
+					<div class="footer_center">
+					<!--social media begins-->
+
+    			<!-- social media ends -->
+					</div>
+				</div>
+			</div>
+	</div>
+</footer>
 </html>
